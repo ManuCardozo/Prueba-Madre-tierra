@@ -1,0 +1,8 @@
+.section_dos {
+    background-color: $princ-color;
+}
+.card-columns{
+    height: 100vh;
+    & div { padding-top: 20%;
+    }
+}

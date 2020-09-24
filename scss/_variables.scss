@@ -1,0 +1,17 @@
+$bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+$bootstrap-lg: 992px;
+$bootstrap-xl: 1200px;
+
+/** FONT **/ 
+$main-font:'Julius Sans One', sans-serif;
+$cont-font:'Libre Caslon Display', serif;
+$font-color: #a52a2a;
+$main-color: brown;
+/** COLOR **/
+$backg-color:linear-gradient(90deg, rgba(230,230,250,1) 52%, rgba(250,250,230,1) 84%);
+$princ-color:rgba(230,230,250,1);
+$sec-color:  rgb(250,250 ,230);
+$waves-beige: url(/assets/Separadores/waveBeige.svg);
+/** NAVEGADOR **/
+$bg-nav:rgb(250, 250,230);

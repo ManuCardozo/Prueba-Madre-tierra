@@ -1,0 +1,138 @@
+/** FONT **/
+/** COLOR **/
+/** NAVEGADOR **/
+.section_dos {
+  background-color: lavender; }
+
+.card-columns {
+  height: 100vh; }
+  .card-columns div {
+    padding-top: 20%; }
+
+.container_preguntas {
+  height: 100vh;
+  background-color: white; }
+
+span {
+  font-size: 15px; }
+
+.box {
+  padding: 60px 0px; }
+
+.box-part {
+  background: #FFF;
+  border-radius: 0;
+  padding: 60px 10px;
+  margin: 30px 0px; }
+
+.text {
+  margin: 20px 0px; }
+
+.fa {
+  color: #4183D7; }
+
+.text {
+  color: brown;
+  font-family: "Libre Caslon Display", serif; }
+
+nav {
+  background-color: #fafae6;
+  font-family: "Julius Sans One", sans-serif; }
+
+.searchbar {
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: lavender;
+  border-radius: 30px;
+  padding: 10px; }
+  .searchbar:hover > .search_input {
+    padding: 0 10px;
+    width: 340px;
+    caret-color: brown;
+    transition: width 0.4s linear; }
+
+.search_input {
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  font-family: "Libre Caslon Display", serif; }
+
+.search_icon {
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: brown;
+  text-decoration: none; }
+
+.interior_prod {
+  background: linear-gradient(90deg, lavender 52%, #fafae6 84%);
+  border-radius: 0px 40px 0px 50px;
+  border-color: lavender; }
+  .interior_prod a {
+    color: brown;
+    font-family: "Julius Sans One", sans-serif; }
+
+#page-content {
+  flex: 1 0 auto; }
+
+#sticky-footer {
+  flex-shrink: none; }
+
+.color_footer {
+  background-color: lavender !important; }
+  .color_footer small {
+    color: brown; }
+
+.redes_footer {
+  background-color: #fafae6;
+  height: 100px; }
+
+.wave-container {
+  background-image: url(/assets/Separadores/waveLavander.svg); }
+  .wave-container img {
+    height: 100%; }
+
+.redes_footer div {
+  display: flex;
+  align-items: baseline;
+  justify-content: center; }
+
+.redes_footer p {
+  padding-left: 5px; }
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background: linear-gradient(90deg, lavender 52%, #fafae6 84%);
+  color: #a52a2a; }
+
+* {
+  box-sizing: border-box; }
+
+a {
+  color: brown; }
+  a :visited {
+    color: lavender; }
+
+a:hover {
+  color: purple; }
+
+h1 {
+  font-family: "Julius Sans One", sans-serif; }
+
+p {
+  font-family: "Libre Caslon Display", serif; }
+
+h4 {
+  font-family: "Julius Sans One", sans-serif; }
