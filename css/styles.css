@@ -82,6 +82,13 @@ nav {
     color: brown;
     font-family: "Julius Sans One", sans-serif; }
 
+.seccion_productos {
+  padding-top: 6%;
+  background-color: lavender; }
+
+.productos_color {
+  background-color: lavender; }
+
 #page-content {
   flex: 1 0 auto; }
 
@@ -129,7 +136,8 @@ a:hover {
   color: purple; }
 
 h1 {
-  font-family: "Julius Sans One", sans-serif; }
+  font-family: "Julius Sans One", sans-serif;
+  color: brown; }
 
 p {
   font-family: "Libre Caslon Display", serif; }

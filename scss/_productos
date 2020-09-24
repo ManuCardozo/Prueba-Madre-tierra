@@ -1,0 +1,7 @@
+.seccion_productos {
+    padding-top: 6%;
+    background-color: $princ-color;
+}
+.productos_color {
+    background-color: $princ-color;
+}
