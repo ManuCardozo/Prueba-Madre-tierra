@@ -1,0 +1,16 @@
+.seccion_productos {
+    background-color: $princ-color;
+    padding: 10%;
+}
+.jumbo_productos {
+    margin-top: 3%;
+    margin-bottom: 0%;
+    height: 400px;
+    background-image: url(../img/jumbo-producto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    .jumbotron-fluid {
+        height: 100%;
+        background: none;
+    }
+}
