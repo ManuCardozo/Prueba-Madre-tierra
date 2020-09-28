@@ -10,6 +10,81 @@
   .card-columns div {
     padding-top: 20%; }
 
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Julius Sans One", sans-serif;
+  color: #fd0808; }
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bgimg-1 {
+  background-image: url("../img/jumbo-producto.png");
+  min-height: 100%; }
+
+.bgimg-2 {
+  background-image: url("../img/balsamo.png");
+  min-height: 400px; }
+
+.bgimg-3 {
+  background-image: url("../img/posteo jabones-12.png");
+  min-height: 400px; }
+
+.bgimg-4 {
+  background-image: url("../img/posteo jabones-4.png");
+  min-height: 400px; }
+
+.bgimg-5 {
+  background-image: url("../img/crema body.png");
+  min-height: 600px; }
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000; }
+  .caption span.border {
+    background-color: lavender;
+    color: brown;
+    padding: 18px;
+    font-size: 2rem;
+    letter-spacing: 10px;
+    font-family: "Julius Sans One", sans-serif; }
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  font: 40px "Julius Sans One", sans-serif;
+  color: brown; }
+
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 .bgimg-4, .bgimg-5s {
+    background-attachment: scroll; } }
+
+.texto_nosotras {
+  color: black;
+  background-color: lavender;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify; }
+  .texto_nosotras p {
+    font-family: "Libre Caslon Display", serif;
+    font-size: 30px;
+    color: brown;
+    padding: 8%;
+    text-align: center;
+    text-transform: uppercase;
+    border: lavender 2px;
+    border-radius: 100px 10px 10px 50px; }
+
 .container_preguntas {
   height: 100vh;
   background-color: white; }
