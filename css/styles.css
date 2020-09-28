@@ -13,8 +13,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  font: 400 15px/1.8 "Julius Sans One", sans-serif;
-  color: #fd0808; }
+  font: 400 15px/1.8 "Julius Sans One", sans-serif; }
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
   position: relative;
