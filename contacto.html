@@ -17,22 +17,23 @@
 	<!-- BOOTSTRAP CSS -->
 	<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Special+Elite&display=swap" rel="stylesheet">
+	<link href="./assets/simple-line-icons/fonts/Simple-Line-Icons.ttf">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
 	<link href="./css/styles.css" rel="stylesheet">
     <title>Madre Tierra - Elaborados Naturales</title>
   </head>
-  <body class="parallax_dos">
-	<nav class="navbar colorNav fixed-top"> <a class="navbar-brand listas_nav" href="./index.html">Madre Tierra</a>
+  <body>
+	<nav class="navbar colorNav fixed-top"> <a class="navbar-brand listas_nav" href="index.html">Madre Tierra</a>
 		<button class="navbar-toggler border border-red" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon icono_nav"><img src="./img/logomt.png" class="w-100" alt=""> </span> </button>
 		<div class="collapse navbar-collapse" id="navbarsExample01">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle listas_nav" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
-					<div class="dropdown-menu interior_prod" aria-labelledby="dropdown01"> <a class="dropdown-item" href="./productos.html">Linea Facial</a> <a class="dropdown-item" href="#">Linea Capilar</a> <a class="dropdown-item" href="#">Linea Corporal</a> </div>
+					<div class="dropdown-menu interior_prod" aria-labelledby="dropdown01"> <a class="dropdown-item" href="/productos.html">Linea Facial</a> <a class="dropdown-item" href="#">Linea Capilar</a> <a class="dropdown-item" href="#">Linea Corporal</a> </div>
 				</li>
 				<li class="nav-item active"> <a class="nav-link listas_nav" href="./sobrenosotras.html">Sobre Nosotras <span class="sr-only">(current)</span></a> </li>
 				<li class="nav-item"> <a class="nav-link listas_nav" href="./PreguntasFrecuentes.html">Preguntas Frecuentes</a> </li>
-				<li class="nav-item"> <a class="nav-link listas_nav" href="#">Contacto</a> </li>
+				<li class="nav-item"> <a class="nav-link listas_nav" href="./contacto.html">Contacto</a> </li>
 				<li class="nav-item"> <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a> </li>
 			</ul>
 			<div class="container h-100 container_start m-0">
@@ -42,55 +43,51 @@
 				</div>
 			</div>
 		</div>
-    </nav>
-    <div class="bgimg-1">
-        <div class="caption animate__animated animate__jackInTheBox">
-        <span class="border">Cambia a Natural, compra Madre Tierra</span>
-        </div>
-      </div>
-      
-      <div class="texto_nosotras">
-        <h3 style="text-align:center;">SOBRE MADRE TIERRA</h3>
-        <p>Somos una empresa de cosmética 100% natural. Nuestros productos están elaborados con aceites vegetales, aceites esenciales puros, mantecas y ceras naturales. Al no utilizar químicos artificiales, la calidad y nobleza de los ingredientes se mantiene intacta.</p>
-      </div>
-      
-      <div class="bgimg-2">
-        <div class="caption">
-        <span class="border">LESS HEIGHT</span>
-        </div>
-      </div>
-      
-      <div class="texto_nosotras">
-        <h3 style="text-align:center;">NOSOTRAS</h3>
-        <p>Madre Tierra nace de una búsqueda personal por consumir productos de cosmética e higiene que estuvieran elaborados con ingredientes naturales, fueran respetuosos con el medio ambiente, amigables con la piel y de calidad. Así, comenzamos elaborando shampoo solidos y jabones naturales para uso cotidiano que pronto nos empezaron a pedir amigos y conocidos. Poco a poco fuimos desarrollando nuevos productos y en 2020 Madre Tierra se transformó en un emprendimiento consciente y sustentable, que apuesta a reducir el impacto ambiental y a cuidar de cada parte del proceso, desde la producción a la comercialización.</p>
-      </div>
-      
-      <div class="bgimg-3">
-        <div class="caption">
-        <span class="border">SCROLL UP</span>
-        </div>
-      </div>
-      
-       
-      <div class="texto_nosotras">
-        <h3 style="text-align:center;">NUESTRO COMPROMISO</h3>
-        <p>Nuestro compromiso es con el medio ambiente y el bienestar de tu piel. Por eso, utilizamos ingredientes naturales, elaboramos productos sin conservantes y no testeamos los productos en animales. Además, no usamos envases plasticos y reducimos el uso de packaging. Preferimos los envases de vidrio y sólo en algunos pocos productos -por seguridad y practicidad- usamos envases de carton, que igualmente son reciclabes.Trabajamos con conciencia, elegimos elementos nobles, respetamos los ciclos de la naturaleza y cuidamos cada parte del proceso para brindarte una experiencia de bienestar en armonía con nuestro entorno.</p>
-      </div>
-      <div class="bgimg-4">
-        <div class="caption">
-        <span class="border">SCROLL UP</span>
-        </div>
-      </div>
-      <div class="texto_nosotras">
-        <h3 style="text-align:center;">Parallax Demo</h3>
-        <p>Parallax scrolling is a web site trend where the background </p>
-      </div>
-      <div class="bgimg-5">
-        <div class="caption">
-        <span class="border">COOL!</span>
-        </div>
-      </div>
+	</nav>
 
+	<div class="container-contact100">
+
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Contactanos
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Please enter your name">
+					<input class="input100" type="text" name="name" placeholder="Nombre Completo">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Please enter your email: e@a.x">
+					<input class="input100" type="text" name="email" placeholder="Tu email">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Please enter your phone">
+					<input class="input100" type="text" name="phone" placeholder="Tu numero de telefono">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Please enter your message">
+					<textarea class="input100" name="message" placeholder="Dejanos tu mensaje"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						<span>
+							<i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+                            Enviar
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
 	<!-- FOOTER-->
 	<footer class="footer text-center">
 		<div class="container">
